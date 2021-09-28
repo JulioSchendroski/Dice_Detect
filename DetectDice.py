@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-img = cv.VideoCapture('http://192.168.15.108:8080/video') #Atribui ao objeto uma url para leitura de video, conectado com o Ipv4 da rede
+img = cv.VideoCapture('') #Atribui ao objeto uma url para leitura de video, conectado com o Ipv4 da rede
 
 while True:
     #Processamento da imagem para obter apenas os pontos de interesse, utilizando binarização
